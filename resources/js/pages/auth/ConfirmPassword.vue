@@ -11,10 +11,10 @@ import { LoaderCircle } from 'lucide-vue-next';
 
 <template>
     <AuthLayout
-        title="Confirm your password"
-        description="This is a secure area of the application. Please confirm your password before continuing."
+        title="Confirma tu contrasena"
+        description="Esta es un area segura de la aplicacion. Por favor confirma tu contrasena antes de continuar."
     >
-        <Head title="Confirm password" />
+        <Head title="Confirmar contrasena" />
 
         <Form
             v-bind="store.form()"
@@ -23,7 +23,7 @@ import { LoaderCircle } from 'lucide-vue-next';
         >
             <div class="space-y-6">
                 <div class="grid gap-2">
-                    <Label htmlFor="password">Password</Label>
+                    <Label htmlFor="password">Contrasena</Label>
                     <Input
                         id="password"
                         type="password"
@@ -47,7 +47,7 @@ import { LoaderCircle } from 'lucide-vue-next';
                             v-if="processing"
                             class="h-4 w-4 animate-spin"
                         />
-                        Confirm Password
+                        Confirmar contrasena
                     </Button>
                 </div>
             </div>

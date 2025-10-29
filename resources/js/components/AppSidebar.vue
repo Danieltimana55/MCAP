@@ -19,7 +19,7 @@ import AppLogo from './AppLogo.vue';
 
 const mainNavItems: NavItem[] = [
     {
-        title: 'Dashboard',
+        title: 'Panel de control',
         href: dashboard(),
         icon: LayoutGrid,
     },
@@ -27,12 +27,12 @@ const mainNavItems: NavItem[] = [
 
 const footerNavItems: NavItem[] = [
     {
-        title: 'Github Repo',
+        title: 'Repositorio en Github',
         href: 'https://github.com/laravel/vue-starter-kit',
         icon: Folder,
     },
     {
-        title: 'Documentation',
+        title: 'Documentacion',
         href: 'https://laravel.com/docs/starter-kits#vue',
         icon: BookOpen,
     },
